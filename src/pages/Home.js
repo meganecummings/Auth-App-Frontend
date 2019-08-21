@@ -1,14 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import '../App.css';
 
 const Home = () => {
     return(
         <>
             <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
             <div className="col-md-5 p-lg-5 mx-auto my-5">
-                <h1 className="display-4 font-weight-normal">Punny headline</h1>
-                <p className="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-                <NavLink className="btn btn-outline-secondary" to='/'>Coming soon</NavLink>
+                <h1 className="display-4 font-weight-normal">Pokemon Social</h1>
+                <p className="lead font-weight-normal">A Pokemon game for fun.</p>
+                <NavLink className="btn btn-outline" to='/'>Coming soon</NavLink>
             </div>
             <div className="product-device shadow-sm d-none d-md-block"></div>
             <div className="product-device product-device-2 shadow-sm d-none d-md-block"></div>
